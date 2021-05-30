@@ -31,3 +31,13 @@ To retrain the model:
   python model.py
 ```
 The proposed architecture draft can be found in file **possible_architecture.png**
+
+Monitoring can be applied combining Cloudwatch metrics and Tensorboard.
+
+Possible next steps for improvement in case of having more time:
+
+* separate preprocessing steps in different modules
+* adding unit tests
+* adding logging 
+
+Another approach of dealing with the problem is using model code with Tensorflow Estimator for Sagemaker. After deployment (the pipeline looks as following: api gateway + lambda + sagemaker estimator), the retraining/redeployment can be automated using step functions/airflow. For monitoring in this case Sagemaker Model Monitor can be used.
