@@ -1,3 +1,6 @@
+
+As the use case was using keras example notebook with imdb data, I let myself to use also the common mnist dataset, so hope it's fine for you :)
+
 To run this application, clone the repo:
 
 ```bash
