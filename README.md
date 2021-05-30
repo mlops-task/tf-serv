@@ -27,3 +27,4 @@ To retrain the model:
 ```
   python model.py
 ```
+The proposed architecture draft can be found in file **possible_architecture.png**
